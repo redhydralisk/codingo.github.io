@@ -82,17 +82,17 @@ A great starting point is:
 
 [Health Adams - Linux for Ethical Hackers](https://www.youtube.com/watch?v=lZAoFs75_cs) which will help you to understand  the fundamentals of what's happening here in the terminal, which should allow  you to then make use of this guide.
 
-In addition I also recommend Heath's other content, available [on their YouTube channel](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw) and I also recommend [InsiderPHD's](https://www.youtube.com/user/RapidBug) content as a very good starting point.
+In addition I also recommend Heath's other content, available [on his YouTube channel](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw) and I also recommend [InsiderPHD's](https://www.youtube.com/user/RapidBug) content as a very good starting point.
 
 Other notable creators well worth watching on your hacking journey include (but certainly aren't limited to):
 
-- [Jason Haddix](https://www.youtube.com/channel/UCk0f0svao7AKeK3RfiWxXEA) and his streams for more tooling insight.
+- [Jason Haddix](https://www.youtube.com/channel/UCk0f0svao7AKeK3RfiWxXEA) and his streams for more tooling insight
 - [LiveOverflow](https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w) for amazing insights into just how deep this rabbit hole can go
 - [Farah Hawa](https://www.youtube.com/channel/UCq9IyPMXiwD8yBFHkxmN8zg) for a variety of hacking guides aimed at beginners
 - [The XSS Rat](https://www.youtube.com/channel/UCjBhClJ59W4hfUly51i11hg) for a range of content from CTF's to thought process
-- [STÖK](https://www.youtube.com/channel/UCQN2DsjnYH60SFBIA6IkNwg) for the best hacking community orientated content around, and by far the coolest / well centred creator to learn from.
+- [STÖK](https://www.youtube.com/channel/UCQN2DsjnYH60SFBIA6IkNwg) for the best hacking community orientated content around, and by far the coolest / well centred creator to learn from
 - [TomNomNom](https://www.youtube.com/user/TomNomNomDotCom/videos) because learning to quit vim is vital, and you may learn some other tricks along the way
-- [Hakluke](https://www.youtube.com/channel/UCCzvz8jsulXm27Cd6k3vzyg) for direction on mindset, how to approach bug bounties, and industry insights.
+- [Hakluke](https://www.youtube.com/channel/UCCzvz8jsulXm27Cd6k3vzyg) for direction on mindset, how to approach bug bounties, and industry insights
 
 And many more, that I'm sure to have missed, but not intentionally. I love you all.
 
@@ -279,7 +279,7 @@ More information can be found here: https://github.com/ffuf/ffuf/issues/290
 
 # Handling Authentication
 ## Cookie Based Authentication
-Often when performing a scan you will want to brute force behind an authentication point. In order to do this, FFUF provides the `b` flag for you to pas cookie data. These aren't limited to authentication based cookies, and any area of the cookie (from names to values) can also be fuzzed with a wordlist for additional discovery.
+Often when performing a scan you will want to brute force behind an authentication point. In order to do this, FFUF provides the `b` flag for you to pass cookie data. These aren't limited to authentication based cookies, and any area of the cookie (from names to values) can also be fuzzed with a wordlist for additional discovery.
 
 ## Header Based Authentication
 If authentication for the application is via HTTP header-based authentication then the `H` flag should be used. As with the `b` flag, this can be used to pass or fuzz any headers, and not just for passing required elements for authentication.
